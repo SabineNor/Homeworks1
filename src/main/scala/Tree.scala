@@ -5,5 +5,6 @@ object Tree extends App {
   for(i<- 0 until height) {
     println(" " * blankSpace + "*" * fillIn + " " * blankSpace)
     blankSpace -= 1
-    fillIn += 2}
+    fillIn += 2
+  }
 }
